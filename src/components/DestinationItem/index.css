@@ -1,0 +1,17 @@
+/* Write your CSS here */
+.user-card-container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.profile-pic {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  margin: 10px;
+}
+.head {
+  color: #000000;
+  font-size: 15px;
+  font-family: 'Roboto';
+}
