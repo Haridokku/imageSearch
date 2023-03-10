@@ -1,4 +1,3 @@
-// Write your code here
 import './index.css'
 
 const DestinationItem = props => {
@@ -7,8 +6,8 @@ const DestinationItem = props => {
 
   return (
     <li className="user-card-container">
-      <img src={imgUrl} className="profile-pic" alt="profile-pic" />
-      <h1 className="head">{name}</h1>
+      <img src={imgUrl} className="profile-pic" alt={name} />
+      <p className="head">{name}</p>
     </li>
   )
 }
